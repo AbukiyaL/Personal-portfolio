@@ -4,6 +4,7 @@
   --color-lightpurple: #8268ab;
   --color-gray: #696969;
   --color-black: #000;
+  --color-button-light: #918ca4;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -57,4 +58,10 @@ h3 {
 }
 .testimonial {
   color: var(--color-black);
+}
+.toolkits strong {
+  color: var(--color-button);
+}
+.toolkits-desc {
+  color: #918ca4;
 }
