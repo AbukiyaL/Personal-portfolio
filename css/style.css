@@ -1,0 +1,11 @@
+.form-input {
+  width: 100%;
+  padding: 18px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+form {
+  /* This ensures the form itself stops growing beyond 500px wide */
+  max-width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+}
