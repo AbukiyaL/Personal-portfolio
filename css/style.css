@@ -4,7 +4,7 @@
   --color-lightpurple: #8268ab;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 form {
   max-width: 400px;
@@ -32,12 +32,12 @@ button:hover {
   color: var(--color-white);
 }
 .navigation ul {
-  list-style-type: none;
   font-size: 1rem;
+  list-style-type: none;
 }
 .navigation li a {
-  text-decoration: none;
   font-size: 1.1rem;
+  text-decoration: none;
 }
 
 .navigation li a:hover {
