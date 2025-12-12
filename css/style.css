@@ -1,11 +1,26 @@
-.form-input {
-  width: 100%;
-  padding: 18px;
-  margin: 8px 0;
-  box-sizing: border-box;
+:root {
+  --color-button: #1b0760;
+  --color-white: #fff;
 }
 form {
-  /* This ensures the form itself stops growing beyond 500px wide */
-  max-width: 400px;
   font-family: Arial, Helvetica, sans-serif;
+  max-width: 400px;
+}
+.form-input {
+  box-sizing: border-box;
+  margin: 8px 0;
+  padding: 18px;
+  width: 100%;
+}
+.button {
+  border-radius: 40px;
+  border: 1px solid var(--color-button);
+  border: none;
+  color: var(--color-button);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1.5rem 3rem;
+  text-align: center;
+  text-transform: uppercase;
 }
