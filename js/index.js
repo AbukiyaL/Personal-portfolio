@@ -9,4 +9,27 @@ if (contactForm) {
         contactForm.reset();  
     });
 }
-console.log("JavaScript is successfully loaded!");
+
+const icons = document.querySelectorAll('.skill-icon');
+const descText = document.getElementById('skill-desc');
+
+const descriptions = {
+    "HTML5": "I use HTML5 to create structured, semantic, and accessible web content.",
+    "CSS3": "I design beautiful layouts using Flexbox, Grid, and custom CSS variables.",
+    "JavaScript": "I build interactive features and handle dynamic data using ES6+ JavaScript.",
+    "React": "I develop modern, component-based applications with React for high performance."
+};
+
+icons.forEach(icon => {
+    icon.addEventListener('mouseenter', () => {
+        const name = icon.alt.replace(' Icon', '');
+        descText.innerText = descriptions[name];
+        icon.style.transform = "scale(1.1)";
+        icon.style.transition = "0.2s";
+    });
+
+    icon.addEventListener('mouseleave', () => {
+        descText.innerText = ""; 
+        icon.style.transform = "scale(1)";
+    });
+});
