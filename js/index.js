@@ -10,8 +10,8 @@ if (contactForm) {
     });
 }
 
-const icons = document.querySelectorAll('.skill-icon');
-const descText = document.getElementById('skill-desc');
+const icons = document.querySelectorAll('.skills-icon');
+const descText = document.getElementById('skills-desc');
 
 const descriptions = {
     "HTML5": "I use HTML5 to create structured, semantic, and accessible web content.",
