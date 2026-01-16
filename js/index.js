@@ -16,7 +16,7 @@ const descText = document.getElementById('skills-desc');
 const descriptions = {
     "HTML5": "I use HTML5 to create structured, semantic, and accessible web content.",
     "CSS3": "I design beautiful layouts using Flexbox, Grid, and custom CSS variables.",
-    "JavaScript": "I build interactive features and handle dynamic data using ES6+ JavaScript.",
+    "JavaScript": "I build interactive and dynamic features and handle dynamic data using ES6+ JavaScript.",
     "React": "I develop modern, component-based applications with React for high performance."
 };
 
