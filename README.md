@@ -7,4 +7,4 @@
 3 🛠️ Tech Stack
 - HTML5: Semantic structure for better accessibility and search engine optimization. 
 - CSS3: Custom styling.
-- JavaScript (ES6): Logic for navigation, animations, and interactivity.
+- JavaScript (ES6): Logic for contact validaton, animations, and interactivity.
